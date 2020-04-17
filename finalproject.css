@@ -1,0 +1,51 @@
+
+
+
+
+h3 {color: #0b3f40; text-align: center; font-size: 250%;
+	border:2px solid black;
+	border-radius: 12px;}
+
+
+h1 {color: #d61818;
+text-align: center;
+font-size: 250%;
+}
+
+h2 {text-align: center; color: #068f36}
+
+img {width: 350px;
+		height: 280px;
+		float: right;
+		border-radius: 60%}
+
+body {background-color: #b8c6cc;}
+		
+form { border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+					}
+
+tr { padding: 10px;
+	text-align: left;
+
+}
+
+
+
+
+table  {border:1px solid black;
+		border-radius: 12px;}
+
+textarea {border-radius: 12px;
+
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<!--
+	Hello, thank you for taking the time to review my project and my code. This project was created by Luke :)
+-->
+
+<html>
+<head>
+			<title>final project</title>
+
+<link rel="stylesheet" type="text/css" href="finalproject.css">
+
+<script src="myScript.js"></script>
+
+
+</head>
+<body>
+
+	<h3>Luke's Final Project!</h3>
+
+	<img src="https://static.vecteezy.com/system/resources/thumbnails/000/463/565/original/New-Healthy-Food2.jpg">
+
+	<p>Thank you for taking the time to look at and review my final project. I chose to create a food order form for my project. I chose this for a few reasons, I believe I will be able to utilize a variety of different types of inputs in this form.  I also believe this is the type of submission form that is in high demand right now. Thanks again for looking and submitting your feedback. </p><br>
+
+
+	<h1>Welcome to Skippy's Pizza</h1>
+	<br>
+		
+
+	<h2>Please fill out your custom order form for fast delivery!</h2>
+			<br><br>
+<form>
+
+	<label for="fn">First Name</label>
+<br>	
+		<input type="text" name="firstname" id="fn" 
+				onblur="ValidateName()"><span id="msg1"></span>
+<br>	
+
+
+	<label for="lname">Last Name</label>
+<br>
+		<input type="text" name="lastname" id="ln" onblur="ValidateLastName()" ><span id="msg2"></span>
+<br>
+
+	<label for="phonenumber">Phone Number</label>
+<br>	
+
+		<input type="tel" placeholder="xxx-xxx-xxxx" name="pnumber" id="pnumber"onblur="validatephonenumber()" ><span id="msg3" ></span>
+<br>
+
+	<label for="username">Username</label>
+<br>	
+	
+		<input type="text" name="username" id="username" 
+		onblur="validateusername()"> <span id="msg4" ></span>
+<br>
+
+	<label for="psw" >Password</label>
+<br>
+		<input type="Password" name="psw" id="psw" >
+<br><br>		
+
+<label for dmethod >Delivery Method</label>
+
+<br>
+
+	<select>
+		<option>Delivery</option>
+
+		<option>Customer pick up</option>
+		
+		<option>Dine In</option>
+
+
+
+	</select>
+<br>
+
+<Br>
+
+	<textarea placeholder="Address: Please incude apartment numer" rows="4" cols="50" ></textarea>
+
+
+<!-- I used a table to help format this data -->
+<table><br>
+	
+	<th>Pizza Toppings</th><br>
+
+		<tr>
+	<td> 
+				
+
+		<input type="checkbox" id="peperoni" name="peperoni">
+
+			<label for="peperoni" >Peperoni</label>
+	</td>
+	<td>		
+
+		<input type="checkbox" id="sausage" name="sausage">
+
+			<label for="sausage" >Sausage</label>
+	</td><td>
+		<input type="checkbox" name="three meat" id="three meat">
+
+			<label for="three meat" >Three Meat</label>
+	
+			</td>
+		<tr>
+			<td>  
+
+	<input type="checkbox" id="mushroom" name="mushroom">
+
+		<label for="mushroom">Mushroom</label>
+</td>
+<td>	
+	<input type="checkbox" id="greenp" name="greenp">
+	
+		<label for="greenp" >Green Peppers</label>	
+</td><td>
+	<input type="checkbox" name="onion" id="onion">
+
+		<label for="onion" >Onion</label>
+
+</td>
+			</tr>
+
+	<tr>
+<td>
+
+	<input type="checkbox" id="cheese" name="cheese">
+
+		<label for="cheese">Cheese</label>
+</td>
+<td>
+
+	<input type="checkbox" name="2cheese" id="2cheese">
+
+		<label for="2cheese">Super Extra Double Cheese</label>
+</td>
+<td>
+	<input type="checkbox" id="vegetarian" name="vegetarian">
+
+		<label for="vegetarian" >Vegetarian</label>
+</td>
+		
+	</tr>
+
+</table>
+<br>
+<table>
+	
+	<th>Crust</th>
+
+		<tr>
+				<td>
+			<form> <!-- use of radio buttions to keep to one selection-->
+					<input type="radio" id="ThickCrust" name="Crust">
+
+							<label for="ThickCrust">Thick Crust</label>	
+				</td>
+				<td>
+						<input type="radio" id="Thin Crust" name="Crust">
+
+							<label for="Thin Crust">Thin Crust</label>	
+			
+				</td><td>
+					<input type="radio" id="Stuffed Crust" name="Crust">
+
+							<label for="Stuffed Crust">Stuffed Crust</label>	
+						<td>
+							
+								<input type="radio" id="gfree" name="Crust">
+
+									<label for="gfree" >Gluten Free</label>
+
+						</td>	
+		</form>	
+				</td>
+
+		</tr>
+
+
+</table>
+
+
+
+<br>
+
+	<textarea placeholder="Delivery Instructions" rows="6" cols="50" 	
+	name="Comments" id="comments" form="commentform" ></textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
